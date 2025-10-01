@@ -11,17 +11,29 @@
     <div class="container">
       <div class="animation-item">
         <div class="box" id="box1"></div>
-        <p class="description">Box 1</p>
+        <p class="description">
+          First in the timeline sequence. Uses <code>tl.to()</code> to move the
+          box 400px to the right. It inherits its duration from the timeline's
+          <code>defaults</code>.
+        </p>
       </div>
 
       <div class="animation-item">
         <div class="box" id="box2"></div>
-        <p class="description">Box 2</p>
+        <p class="description">
+          Second in the sequence. Uses <code>tl.from()</code> to animate the box
+          FROM an initial state (off-screen left, invisible, small) to its final
+          position.
+        </p>
       </div>
 
       <div class="animation-item">
         <div class="box" id="box3"></div>
-        <p class="description">Box 3</p>
+        <p class="description">
+          Third and final animation. Uses <code>tl.to()</code> to rotate the box
+          360 degrees. This tween automatically starts after the previous one is
+          complete.
+        </p>
       </div>
     </div>
   </body>
