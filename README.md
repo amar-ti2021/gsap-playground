@@ -25,6 +25,7 @@ The goal of this repo is to practice GSAP concepts in isolation, from simple twe
 Here are the examples I've built so far. Click on the file name to see the code.
 
 - **`01-core-concepts.html`**: A simple animation using `gsap.to()`, `gsap.from()`, and `gsap.fromTo()` to move and rotate an object.
+- **`02-timelines.html:`** Shows how to use `gsap.timeline()` to create sequenced animations and control their timing.
 
 ---
 
