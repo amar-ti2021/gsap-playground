@@ -1,2 +1,33 @@
-# gsap-playground
-Documenting my journey into the world of web animation with GreenSock (GSAP). Contains examples, notes, and mini-projects.
+# My GSAP Learning Journey
+
+This repository contains all the code, examples, and mini-projects I'm creating while learning the GreenSock Animation Platform (GSAP).
+
+## About This Project
+
+The goal of this repo is to practice GSAP concepts in isolation, from simple tweens to complex timelines and ScrollTrigger animations. Each file or folder will demonstrate a specific feature.
+
+---
+
+## What I'm Learning
+
+- [ ] **Core Concepts:** Understanding `gsap.to()`, `gsap.from()`, and `gsap.fromTo()`.
+- [ ] **Timelines:** Creating sequenced animations with `gsap.timeline()`.
+- [ ] **Staggering:** Animating multiple elements in a sequence.
+- [ ] **Easing:** Applying different animation "feels" like bounce, elastic, etc.
+- [ ] **ScrollTrigger:** Triggering animations based on scroll position.
+- [ ] **SVG Animation:** Animating SVG graphics.
+- [ ] **Performance:** Best practices for smooth, performant animations.
+
+---
+
+## Demos & Examples
+
+TBA
+
+---
+
+## How to Use
+
+1.  Clone this repository: `git clone https://github.com/amar-ti2021/gsap-playground.git`
+2.  Navigate to the project folder.
+3.  Open any of the `.html` files in your web browser to see the animation in action.
