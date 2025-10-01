@@ -10,8 +10,8 @@ The goal of this repo is to practice GSAP concepts in isolation, from simple twe
 
 ## What I'm Learning
 
-- [ ] **Core Concepts:** Understanding `gsap.to()`, `gsap.from()`, and `gsap.fromTo()`.
-- [ ] **Timelines:** Creating sequenced animations with `gsap.timeline()`.
+- [x] **Core Concepts:** Understanding `gsap.to()`, `gsap.from()`, and `gsap.fromTo()`.
+- [x] **Timelines:** Creating sequenced animations with `gsap.timeline()`.
 - [ ] **Staggering:** Animating multiple elements in a sequence.
 - [ ] **Easing:** Applying different animation "feels" like bounce, elastic, etc.
 - [ ] **ScrollTrigger:** Triggering animations based on scroll position.
