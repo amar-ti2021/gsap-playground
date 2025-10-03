@@ -29,6 +29,13 @@ body {
   background-color: #ffbe0b;
 }
 
+#box4 {
+  background-color: #4ade80;
+}
+#box5 {
+  background-color: #f472b6;
+}
+
 .animation-item {
   display: flex;
   flex-direction: column;
