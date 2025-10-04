@@ -48,6 +48,20 @@
 
     <script>
       gsap.registerPlugin(ScrollTrigger);
+
+      gsap.to(".box", {
+        rotation: 360,
+        x: 500,
+        duration: 2,
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".box",
+          markers: true,
+          start: "top center",
+          end: "bottom center",
+          scrub: true,
+        },
+      });
     </script>
   </body>
 </html>
