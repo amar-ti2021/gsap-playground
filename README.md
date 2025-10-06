@@ -33,6 +33,14 @@ Here are the examples I've built so far. Click on the file name to see the code.
 
 ---
 
+## Mini-Projects
+
+Here are the practical projects built by combining the concepts learned above.
+
+- **`07-mini-project-marquee.html`**: An infinite-scrolling marquee of cards, built by cloning elements and creating a seamless GSAP loop.
+
+---
+
 ## Key Performance Principles
 
 These are the most important best practices to ensure your animations are always fast and smooth.
