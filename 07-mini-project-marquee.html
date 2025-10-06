@@ -72,6 +72,22 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script></script>
+    <script>
+      const marqueeContent = document.querySelector(".marquee-content");
+      const originalCards = Array.from(marqueeContent.children);
+      const moveDistance = marqueeContent.scrollWidth;
+
+      originalCards.forEach((card) => {
+        const clone = card.cloneNode(true);
+        marqueeContent.appendChild(clone);
+      });
+
+      gsap.to(marqueeContent, {
+        x: -moveDistance,
+        duration: 30,
+        ease: "none",
+        repeat: -1,
+      });
+    </script>
   </body>
 </html>
