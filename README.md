@@ -38,6 +38,7 @@ Here are the examples I've built so far. Click on the file name to see the code.
 Here are the practical projects built by combining the concepts learned above.
 
 - **`07-mini-project-marquee.html`**: An infinite-scrolling marquee of cards, built by cloning elements and creating a seamless GSAP loop.
+- **`08-mini-project-floating-card.html`**: Creates a natural 'floating' effect by combining several out-of-sync, looping animations. Includes a bonus for interactive mouse-based tilting.
 
 ---
 
