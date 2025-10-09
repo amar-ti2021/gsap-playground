@@ -75,6 +75,70 @@
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script></script>
+    <script>
+      const loaderCircle = document.querySelector(".loader-circle");
+      const loaderSVG = document.querySelector(".loader-svg");
+
+      const circleLength = loaderCircle.getTotalLength();
+
+      gsap.set(loaderCircle, {
+        strokeDasharray: circleLength,
+        strokeDashoffset: circleLength,
+      });
+
+      const loaderTl = gsap.timeline({ repeat: -1 });
+
+      loaderTl
+        .to(loaderCircle, {
+          strokeDashoffset: 0,
+          duration: 1.5,
+          ease: "power1.inOut",
+        })
+        .to(loaderCircle, {
+          strokeDashoffset: -circleLength,
+          duration: 1.5,
+          ease: "power1.inOut",
+        })
+        .to(
+          loaderSVG,
+          {
+            rotation: "+=360",
+            duration: 3,
+            ease: "none",
+          },
+          0
+        );
+
+      function onPageLoad() {
+        const mainTl = gsap.timeline();
+
+        mainTl
+          .to("#preloader", {
+            opacity: 0,
+            duration: 7,
+            ease: "power2.out",
+          })
+          .set("#preloader", {
+            display: "none",
+          })
+          .set("#main-content", {
+            opacity: 1,
+            visibility: "visible",
+          })
+          .from(
+            "#main-content h1, #main-content p, #main-content img",
+            {
+              y: 50,
+              opacity: 0,
+              stagger: 0.2,
+              duration: 1,
+              ease: "power3.out",
+            },
+            "-=0.5"
+          );
+      }
+
+      window.addEventListener("load", onPageLoad);
+    </script>
   </body>
 </html>
