@@ -40,6 +40,7 @@ Here are the practical projects built by combining the concepts learned above.
 - **`07-mini-project-marquee.html`**: An infinite-scrolling marquee of cards, built by cloning elements and creating a seamless GSAP loop.
 - **`08-mini-project-floating-card.html`**: Creates a natural 'floating' effect by combining several out-of-sync, looping animations. Includes a bonus for interactive mouse-based tilting.
 - **`09-mini-project-flipping-card.html:`** An interactive card flip effect on hover. This project simulates a 3D flip using only 2D transforms (`scaleX`) and a GSAP Timeline, controlled efficiently with `.play()` and `.reverse().`
+- **`10-mini-project-preloader.html:`** A functional page preloader with a looping SVG animation. Uses the `window.onload` event to trigger a timeline that gracefully fades out the loader and staggers in the main content.
 
 ---
 
